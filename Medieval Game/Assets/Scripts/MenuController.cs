@@ -35,6 +35,11 @@ public class MenuController : MonoBehaviour
         au.PlayOneShot(panelSfx);
     }
 
+    public void LoadCredit()
+    {
+        SceneManager.LoadScene(3);
+    }
+
     public void QuitGame()
     {
         Application.Quit(); 
